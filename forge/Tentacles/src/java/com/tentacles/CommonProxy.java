@@ -1,6 +1,6 @@
 package com.tentacles;
 
-import com.tentacles.tentickles.ModItems;
+import com.tentacles.item.ModItems;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

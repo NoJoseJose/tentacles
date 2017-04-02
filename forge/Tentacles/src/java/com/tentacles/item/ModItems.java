@@ -1,4 +1,4 @@
-package com.tentacles.tentickles;
+package com.tentacles.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
