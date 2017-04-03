@@ -1,18 +1,17 @@
 package com.tentacles.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemBlock;
 
-public class TentaclesBlock extends Block
+public class TentaclesItemBlock extends ItemBlock
 {
-	protected TentaclesBlock(String unlocalizedName, Material materialIn) 
+	protected TentaclesItemBlock(Block block) 
 	{
-		super(materialIn);
+		super(block);
 		this.setHarvestLevel("pickaxe", 1);
 		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		this.setRegistryName("tentaclesBlock");
 		this.setUnlocalizedName(this.getRegistryName().toString());
 	}
-	
 }
